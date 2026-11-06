@@ -22,7 +22,10 @@
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
-  "baseUrl": "/iwamad-mobile"
-}
+      "baseUrl": "/iwamad-mobile"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
