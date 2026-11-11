@@ -20,6 +20,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "experiments": {
+      "baseUrl": "/iwamad-mobile"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
