@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "dependencies": {
+    "@tanstack/react-query": "^5.107.1",
     "expo": "~58.0.21",
     "expo-constants": "~58.0.15",
     "expo-linking": "~58.0.16",
@@ -24,6 +25,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-"export:web": "expo export --platform web --output-dir docs && node -e \"const fs=require('fs');fs.writeFileSync('docs/.nojekyll', '');fs.copyFileSync('docs/index.html', 'docs/404.html')\""  },
+    "export:web": "expo export --platform web --output-dir docs && node -e \"const fs=require('fs');fs.writeFileSync('docs/.nojekyll', '');fs.copyFileSync('docs/index.html', 'docs/404.html')\""
+  },
   "private": true
 }
