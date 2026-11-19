@@ -1,11 +1,11 @@
 [
-    {
-      "id": 1,
-      "title": "Cupcake Decorating Masterclass",
-      "date": "2026-11-12",
-      "place": "Culinary Studio",
-      "seats": 20
-    },
+  {
+    "id": 1,
+    "title": "Cupcake Decorating Masterclass",
+    "date": "2026-03-08", 
+    "place": "Culinary Studio",
+    "seats": 20
+  },
     {
       "id": 2,
       "title": "DIY Macrame Keychain Workshop",
